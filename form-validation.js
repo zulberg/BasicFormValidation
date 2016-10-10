@@ -1,7 +1,7 @@
 function validate(){
-  //Grab the user's input
-  var passEntered = document.getElementById("pass").value;
+  //Grab the user's input and store in variables
   var userEntered = document.getElementById("user").value;
+  var passEntered = document.getElementById("pass").value;
 
   //Show message that there is an error with the username...
   document.getElementById("usernameError").innerHTML="Bad username.";
